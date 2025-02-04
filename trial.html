@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nutty Kneads</title>
+  <style>
+    body, html {
+      height: 100%;
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      scroll-behavior: smooth;
+      background: url('background.jpg') no-repeat center center fixed; 
+      background-size: cover;
+      background-position: center;
+    }
+
+    header {
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background: rgba(0, 0, 0, 0.5);
+      color: white;
+      text-align: center;
+    }
+
+    nav {
+      position: fixed;
+      top: 0;
+      right: 0;
+      background-color: #8B4513;
+      color: white;
+      padding: 10px 20px;
+      border-bottom-left-radius: 10px;
+      z-index: 100;
+    }
+
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      gap: 15px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 50px 0;
+      background: rgba(0, 0, 0, 0.6);
+      min-height: 100vh;
+      text-align: center;
+    }
+
+    table {
+      width: 80%;
+      border-collapse: collapse;
+      margin: 20px auto;
+      background: rgba(255, 255, 255, 0.85);
+      color: black;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    }
+
+    table th, table td {
+      padding: 10px;
+      border: 1px solid black;
+      text-align: center;
+    }
+
+    table th {
+      background-color: orange; 
+      color: white;
+    }
+
+    .learn-more {
+      background-color: #8B4513;
+      color: white;
+      padding: 5px 10px;
+      border: none;
+      border-radius: 5px;
+      font-size: 12px;
+      font-weight: bold;
+      cursor: pointer;
+      text-decoration: none;
+    }
+
+    .learn-more:hover {
+      background-color: #5E321E;
+    }
+
+    img {
+      width: 100px;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#all-recipes">All Recipes</a></li> 
+      <li><a href="#Bread">Bread</a></li>
+      <li><a href="#Breakfast">Breakfast</a></li>
+      <li><a href="#Cakes">Cakes</a></li>
+      <li><a href="#Cookies">Cookies</a></li>
+      <li><a href="#Pies">Pies</a></li>
+    </ul>
+  </nav>
+
+  <header id="home">
+    <h1>Nutty Kneads Baking Recipes</h1>
+    <h3>“Sweet moments, freshly baked with love.” “Savor the sweet life, one bite at a time.” “Totally delicious, entirely indulgent.” “Life is short; enjoy every cake moment.”</h3>
+  </header>
+
+  <section>
+    <table>
+      <thead>
+        <tr>
+          <th>Item</th>
+          <th>Total Time</th>
+          <th>Serving</th>
+          <th>Recipe</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <img src="oatmeal.jpg" alt="Bowl Baked Oatmeal">
+            <br> Bowl Baked Oatmeal
+          </td>
+          <td>45 minutes</td>
+          <td>9</td>
+          <td>
+            <iframe width="300" height="169" src="https://www.youtube.com/embed/4HnZpshumuQ?si=HrIGDyPwtMuuslsg" 
+  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+  gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+</iframe>
+
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <img src="chococake.jpg" alt="Triple Chocolate Cake">
+            <br> Triple Chocolate Cake
+          </td>
+          <td>4 hours</td>
+          <td>12-16</td>
+          <td>
+            <iframe width="300" height="169" src="https://www.youtube.com/embed/PAZ5pRqqTv4?si=G3ZiyJglHPPdG0W8" 
+  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+  gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+</iframe>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <img src="cinnamonswirlbread.jpg" alt="Homemade Cinnamon Swirl Bread">
+            <br> Homemade Cinnamon Swirl Bread
+          </td>
+          <td>4 hours 45 minutes</td>
+          <td>1 loaf</td>
+          <td>
+            <iframe width="300" height="169" src="https://www.youtube.com/embed/01ZPGuV4Yvw?si=EBOhkuXBuQvo3UiJ" 
+  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+  gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+</iframe>
+
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <img src="lemontart.jpg" alt="Lemon Blueberry Tart">
+            <br> Lemon Blueberry Tart
+          </td>
+          <td>4 hours</td>
+          <td>8-10</td>
+          <td>
+            <iframe width="300" height="169" src="https://www.youtube.com/embed/05iA6hw4waM?si=csVtwCFtFW-399Go" 
+  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+  gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+</iframe>
+
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+</body>
+</html>
+
